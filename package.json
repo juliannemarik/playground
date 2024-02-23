@@ -1,0 +1,28 @@
+{
+  "name": "playground",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "ts-node --esm ./src/ajv/validate.ts",
+    "promises": "ts-node --esm ./src/promises.ts",
+    "generateToken": "ts-node --esm ./src/scripts/generateToken.ts",
+    "generateContext": "ts-node --esm ./src/scripts/generateContext.ts",
+    "createInitiative": "ts-node --esm ./scr/scripts/createInitiative.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@esri/arcgis-rest-auth": "^3.7.0",
+    "@esri/hub-common": "^14.79.1",
+    "@types/node": "^20.10.1",
+    "ajv": "^8.12.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.21"
+  }
+}
