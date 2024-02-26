@@ -1,5 +1,5 @@
 import { UserSession } from "@esri/arcgis-rest-auth";
-import { USERNAME, PASSWORD, PORTAL } from './resources';
+import { USERNAME, PASSWORD, PORTAL } from './resources.ts';
 
 export const generateToken = async () => {
   const userSession = new UserSession({
@@ -13,4 +13,4 @@ export const generateToken = async () => {
   return token;
 };
 
-generateToken();
+// generateToken();

@@ -1,6 +1,6 @@
 import { createInitiative as createHubInitiative, ArcGISContextManager, IHubInitiative } from "@esri/hub-common"
 import { UserSession } from "@esri/arcgis-rest-auth"
-import { USERNAME, PASSWORD, PORTAL } from './resources'
+import { USERNAME, PASSWORD, PORTAL } from './resources.ts';
 import _ from 'lodash';
 
 const DEFAULT_INITITIVE = {

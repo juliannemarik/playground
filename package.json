@@ -10,7 +10,11 @@
     "promises": "ts-node --esm ./src/promises.ts",
     "generateToken": "ts-node --esm ./src/scripts/generateToken.ts",
     "generateContext": "ts-node --esm ./src/scripts/generateContext.ts",
-    "createInitiative": "ts-node --esm ./scr/scripts/createInitiative.ts"
+    "createInitiative": "ts-node --esm ./src/scripts/createInitiative.ts",
+    "updateProjectStatuses": "ts-node --esm ./src/scripts/updateProjectStatuses.ts",
+    "devSummitAutomation": "ts-node --esm ./src/devSummit2024/hubjs_automation_demo.ts",
+    "devSummitCleanup": "ts-node --esm ./src/devSummit2024/cleanup.ts"
+
   },
   "author": "",
   "license": "ISC",
